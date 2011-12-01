@@ -1,0 +1,372 @@
+/*  Main  */
+* {
+  margin:0;
+  padding:0;
+  border:0;
+	background: transparent;
+}
+body {
+  font-family: "MS PGothic","Osaka",Arial,sans-serif;
+  font-size: 12px;
+}
+ul,li{
+  list-style:none;
+}
+a {
+  text-decoration:none;
+  color:#353535;
+}
+a:hover {
+  color:#CD0102;
+}
+ .inline {
+  float:left;
+  display:inline;
+}
+ .hidden{
+  display:none;
+}
+.wrapper {
+  margin:auto;
+  width:980px;
+  
+}
+/* Body */
+
+/* header */
+.header{
+  float:left;
+  display:inline;
+  background:url("../images/header_bg.gif") repeat-x;
+  width:980px;
+  height:160px;
+}
+.header a{
+  text-shadow: 2px 2px 2px gray;
+}
+.header .logo{
+  float:left;
+  display:inline;
+  background:url("../images/logo_bg.gif") no-repeat;
+  height:160px;
+  width:140px;
+  margin-left:20px;
+}
+.header .logo a{
+  float:left;
+  display:inline;
+  margin-top:40px;
+  margin-left:40px;
+  width:50px;
+  height:80;
+  font-size:14px;
+  font-weight:bold;
+  line-height:20px;
+}
+.header .banner{
+  float:left;
+  display:inline;
+  width:800px;
+  margin-left:15px;
+  height:86px;
+  margin-top:5px;
+}
+.header .sitename{
+  float:left;
+  display:inline;
+  margin-top:41px;
+  line-height:40px;
+  font-weight:bold;
+  font-size:16px;
+}
+.menu{
+  float:left;
+  display:inline;
+  width:800px;
+  margin-left:15px;
+  height:52px;
+}
+.header .menu a{
+  float:left;
+  display:inline;
+  width:150px;
+  height:52px;
+  background:url("../images/navigation.gif") no-repeat;
+  text-indent:-100px;
+  overflow:hidden;
+}
+.header .menu a{
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+.header .menu a:hover{
+  border:none;/*网上说解决IE6中的a:hover不激发的解决办法*/
+  background-position-y: -52px;
+}
+.header .menu a.nav2{
+  background-position-x: -150px;
+}
+.header .menu a.nav3{
+  background-position-x: -300px;
+}
+.header .menu a.nav4{
+  background-position-x: -450px;
+}
+.header .menu a.nav5{
+  background-position-x: -600px;
+}
+
+
+
+/* /header */
+/* body */
+.container{
+  float:left;
+  display:inline;
+  width:940px;
+  margin-left:20px;
+}
+.leftmenu{
+  float:left;
+  display:inline;
+  width:220px;
+  margin-top:20px;
+  border:1px #CCC solid;
+}
+.leftmenu h3{
+ margin:5px 5px 0px 15px;
+ height:30px;
+ width:200px;
+ line-height:30px;
+ font-size:18px;
+}
+.leftmenu .list{
+  float:left;
+  display:inline;
+  margin-top:5px;
+  margin-left:10px;
+  width:200px;
+  line-height:20px;
+  font-size:14px;
+}
+.leftmenu .list li{
+  float:left;
+  display:inline;
+  width:200px;
+  border-bottom:1px #CCC dotted;
+}
+.leftmenu .list li a{
+  float:left;
+  display:inline;
+  width:180px;
+  margin-left:10px;
+}
+.leftmenu .list li a:hover{
+  text-shadow: 2px 2px 2px gray;
+}
+.leftmenu .ie6space{
+  float:left;
+  display:inline;
+  width:100%;
+  height:10px;
+}
+.content{
+  float:left;
+  display:inline;
+  width:700px;
+  margin-top:20px;
+  margin-left:15px;
+  border:1px #CCC solid;
+}
+.content h3{
+  float:left;
+  display:inline;
+  width:680px;
+  margin:10px;
+  height:30px;
+  line-height:30px;
+  font-size:18px;
+  text-shadow: 2px 2px 2px gray;
+}
+.content h3 a{
+  font-size:18px;
+}
+.content .messagebox{
+  float:left;
+  display:inline;
+  width:680px;
+  margin:0 10px 10px 10px;
+  font-size:14px;
+}
+/*footer*/
+.footer{
+  float:left;
+  display:inline;
+  margin-top:20px;
+  background:url("../images/footer_bg.png") repeat-x 0 28px;
+  width:980px;
+  height:148px;
+}
+.footer .goto_top{
+  float:left;
+  display:inline;
+  width:100%;
+  height:32px;
+  text-align:right;
+}
+.footer .goto_top a{
+  float:right;
+  display:inline-block;
+  width:141px;
+  height:32px;
+  background:url("../images/pagetop.png") no-repeat;
+  text-indent:200px;
+  overflow:hidden;
+}
+.footer .logo{
+  float:left;
+  display:inline;
+  height:130px;
+  width:140px;
+  margin-left:20px;
+}
+.footer .logo a{
+  color:#FFF;
+  float:left;
+  display:inline;
+  margin-top:25px;
+  font-size:14px;
+  font-weight:bold;
+  line-height:20px;
+  text-shadow: 2px 2px 2px gray;
+}
+.footer .copyright{
+  float:right;
+  display:inline;
+  width:550px;
+  height:130px;
+  margin-left:15px;
+}
+.footer .copyright .footer_nav{
+  margin-top: 12px;
+  padding: 15px 0 10px;
+  border-bottom: 1px solid #323232;
+}
+.footer .copyright .footer_nav li{
+display: inline;
+padding-left: 50px;
+background: url("../images/footer_arrow.gif") no-repeat scroll 2.6em 0.3em transparent;
+color: white;
+}
+.footer .copyright .footer_nav li a{
+  color:#FFF;
+}
+.footer .copyright .footer_nav li a:hover{
+  text-shadow: 1px 1px 1px black;
+}
+.footer .copyright .allright{
+  padding-top: 15px;
+  text-align: right;
+  color: #6C6C6C;
+  padding-right:20px;
+  border-top: 1px solid #5A5A5A;
+}
+
+
+/* table*/
+.table{
+  float:left;
+  display:inline-block;
+  width:auto;
+  border:1px #CCC solid;
+}
+.table ul.even,
+.table ul.odd{
+  float:left;
+  display:inline-block;
+  width:100%;
+}
+.table ul.odd{
+  background:#F3F3F3;
+}
+.table ul:hover{
+  background:#E3E3E3;
+}
+.table ul li{
+  float:left;
+  display:inline;
+  width:auto;
+  line-height:25px;
+  height:25px;
+}
+/* /table*/
+/* index */
+.index_topimg{
+  width:940px;
+  height:300px;
+}
+.index_box{
+  float:left;
+  display:inline;
+  width:230px;
+  margin-left:3px;
+  margin-top:10px;
+  height:200px;
+  border:1px #CCC solid;
+  background:#f3f3f3;
+}
+
+.index_box h3{
+  float:left;
+  display:inline-block;
+  height:30px;
+  width:100%;
+  background:#CCC;
+  line-height:30px;
+  text-align:center;
+  text-shadow: 2px 2px 2px gray;
+}
+.index_box .message{
+  float:left;
+  display:inline-block;
+  width:210px;
+  margin-top:10px;
+  margin-left:10px;
+  line-height:18px;
+}
+
+/*company*/
+.table.company{
+  width:670px;
+}
+.table.company li.company_name{
+  float:left;
+  display:inline-block;
+  text-align:right;
+  padding-right:10px;
+  width:150px;
+  border-right:1px #CCC solid;
+  font-weight:bold;
+}
+.table.company li.company_value{
+  float:left;
+  display:inline-block;
+  padding-left:10px;
+  width:499px;
+}
+.map{
+  float:left;
+  display:inline-block;
+  width:670px;
+  margin:20px 0 0 10px
+  
+}
+
+/* /company*/
+/*other*/
+
+.table.other{
+  width:500px;
+  margin-left:10px;
+}
+/* /other*/
