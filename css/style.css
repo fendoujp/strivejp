@@ -57,6 +57,7 @@ a:hover {
   display:inline;
   background:url("../images/logo.png") no-repeat !important;
   _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/logo.png");
+  _background:none;
   width:148px;
   height:133px;
 }
