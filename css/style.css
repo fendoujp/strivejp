@@ -49,25 +49,22 @@ a:hover {
   display:inline;
   background:url("../images/logo_bg.gif") no-repeat;
   height:160px;
-  width:140px;
+  width:150px;
   margin-left:20px;
 }
 .header .logo a{
   float:left;
   display:inline;
-  margin-top:40px;
-  margin-left:40px;
-  width:50px;
-  height:80;
-  font-size:14px;
-  font-weight:bold;
-  line-height:20px;
+  background:url("../images/logo.png") no-repeat !important;
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/logo.png");
+  width:148px;
+  height:133px;
 }
 .header .banner{
   float:left;
   display:inline;
   width:800px;
-  margin-left:15px;
+  margin-left:5px;
   height:86px;
   margin-top:5px;
 }
@@ -83,7 +80,7 @@ a:hover {
   float:left;
   display:inline;
   width:800px;
-  margin-left:15px;
+  margin-left:5px;
   height:52px;
 }
 .header .menu a{
