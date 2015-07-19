@@ -1813,7 +1813,6 @@ Content Box
 
 .content-box.style5 h4 {
   margin: 0;
-  line-height: 60px;
 }
 .content-box.style5 h4 i {
   background-color: #279fbb;
@@ -4337,9 +4336,6 @@ ul.contact-info {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-ul.contact-info li {
-  margin-bottom: 20px;
 }
 ul.contact-info li i {
   margin-right: 10px;
