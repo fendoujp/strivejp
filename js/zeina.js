@@ -665,7 +665,7 @@ var map;
 function contactusMap() {
 
     var myLatlng, mapOptions, marker;
-    var myLatlng = new google.maps.LatLng(35.6950896,139.7774689);
+    var myLatlng = new google.maps.LatLng(35.693933, 139.779655);
 
     mapOptions = {
         zoom: 17,
